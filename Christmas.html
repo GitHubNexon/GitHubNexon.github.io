@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="/assets/calendar-days-solid.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+    <title>Countdown</title>
+</head>
+<body>
+    <header>
+      <div class="custom-audio">
+        <audio autoplay id="autoplayAudio">
+          <source src="/assets/Christmas in Our Hearts.mp3" type="audio/mp4">
+        </audio>
+      </div>
+        <nav>
+          <a href="index.html" class="logo" id="logo">Countdown</a>
+          <i class="fas fa-bars" id="ham-menu"></i>
+          <ul id="nav-bar">
+            <li>
+              <a href="index.html">Ber months</a>
+            </li>
+            <li>
+                <a href="newyear.html">Newyear</a>
+              </li>
+            <li>
+              <a href="Christmas.html">Christmas</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    <video autoplay loop muted plays-inline class="back-video">
+        <source src="/assets/Isang tulog na lang see you soon- jose mari chan.mp4" type="video/mp4">
+    </video>
+    
+    <h1>Christmas Countdown</h1>
+
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="big-text" id="days">0</p>
+            <span>DAYS</span>
+        </div>
+        <div class="countdown-el hours-c">
+            <p class="big-text" id="hours">0</p>
+            <span>HOURS</span>
+        </div>
+        <div class="countdown-el mins-c">
+            <p class="big-text" id="mins">0</p>
+            <span>MINUTES</span>
+        </div>
+        <div class="countdown-el seconds-c">
+            <p class="big-text" id="seconds">0</p>
+            <span>SECONDS</span>
+        </div>
+    </div>
+
+    <footer>
+        <p>Time until Monday, 25 December 2023 (Manila time)</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+    <script src="Christmas.js" defer></script>
+</body>
+</html>
